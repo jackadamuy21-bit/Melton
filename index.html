@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Melton</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-size: 4rem;
+      transition: transform 0.2s;
+    }
+
+    h1:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body onclick="goToNext()">
+  <h1>Melton</h1>
+
+  <script>
+    function goToNext() {
+      window.location.href = "page2.html";
+    }
+  </script>
+</body>
+</html>
